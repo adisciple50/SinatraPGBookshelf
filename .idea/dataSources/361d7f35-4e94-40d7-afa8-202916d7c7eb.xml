@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="bookshelf2@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.4">
+    <root id="1"/>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>13318</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="bookshelf">
+      <ObjectId>32768</ObjectId>
+    </database>
+    <database id="4" parent="1" name="bookshelf2">
+      <ObjectId>40961</ObjectId>
+      <Current>1</Current>
+    </database>
+    <database id="5" parent="1" name="bookshelf-api">
+      <ObjectId>40964</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="6" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="7" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="9" parent="2" name="pg_temp_1">
+      <ObjectId>12314</ObjectId>
+    </schema>
+    <schema id="10" parent="2" name="pg_toast_temp_1">
+      <ObjectId>12315</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="information_schema">
+      <ObjectId>13018</ObjectId>
+    </schema>
+    <schema id="12" parent="5" name="public">
+      <ObjectId>2200</ObjectId>
+      <Current>1</Current>
+    </schema>
+    <schema id="13" parent="5" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="14" parent="5" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="15" parent="5" name="pg_temp_1">
+      <ObjectId>12314</ObjectId>
+    </schema>
+    <schema id="16" parent="5" name="pg_toast_temp_1">
+      <ObjectId>12315</ObjectId>
+    </schema>
+    <schema id="17" parent="5" name="information_schema">
+      <ObjectId>13018</ObjectId>
+    </schema>
+    <schema id="18" parent="5" name="authentication">
+      <ObjectId>40965</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="19" parent="5" name="bookshelf">
+      <ObjectId>40966</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+  </database-model>
+</dataSource>
