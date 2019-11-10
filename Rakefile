@@ -19,3 +19,12 @@ task :deleteconnection do
   File.delete 'credentials.json'
 end
 
+desc "setup db"
+task :setupdb do
+
+end
+
+desc "delete db"
+task :deletedb do
+
+end
