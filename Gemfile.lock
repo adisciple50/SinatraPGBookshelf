@@ -27,7 +27,7 @@ GEM
       omniauth (~> 1.9)
     pg (1.1.4)
     pg (1.1.4-x64-mingw32)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-protection (2.0.7)
       rack
     sinatra (2.0.7)
